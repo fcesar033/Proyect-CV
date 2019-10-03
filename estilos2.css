@@ -1,0 +1,281 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto Mono', monospace;
+}
+
+    .header{
+        height: 35%;
+        width: 100%;
+        background-image: url("code2.jpg");
+        background-repeat: repeat;
+        background-position: center;
+        display: flex;
+        
+    }
+        .header-img{
+            width: 50%;
+            display: flex;
+            align-items: end;
+            margin-top: 10px;
+
+        }
+            .nav{
+                text-align: left;
+                text-transform: uppercase;
+                text-shadow: 1px 1px black;
+
+            }
+
+                a{
+                    color:white;
+                }
+
+                a:hover{
+                    color:yellow;
+                }
+
+
+            .perfil{
+                height: 250px;
+                width: 250px;
+                border-radius: 150px;
+                border: 10px solid #0F1758;
+                z-index: 1;
+                margin-left: 80px;
+            }
+        .header-texto{
+            width: 40%;
+            margin-left: 120px;
+
+        }
+            .titulo-principal{
+                color:white;
+                font-family: 'Roboto Condensed', sans-serif;
+                font-size: 50px;
+                text-shadow: 2px 2px black;
+            }
+
+            .titulo-secundario{
+                color:white;
+                font-family: 'Roboto Condensed', sans-serif;
+                font-size: 35px;
+                font-style: italic;
+                text-shadow: 2px 2px black;
+                
+            }
+    
+    .main{
+        height: 1080px;
+        display: flex;
+        margin-bottom: 0;         
+    }
+       #columna1{
+            height: 100%;
+            width: 35%;
+            background-color: #0F1758;
+        }
+            .section{
+                text-align: justify;
+                margin: 40px;    
+            }
+
+            .h3-columna1{
+                margin-left: 40px;
+                color: white;
+                text-shadow: 2px 2px black;
+            }
+
+            .hr-columna1{
+                width: 30%;
+                color:white;
+                margin-left: 40px;
+                height: 5px;
+                background-color: white;
+                border-radius: 100px; 
+            }
+
+            .parrafo-columna1{
+                color:white;
+            }
+
+                .contacto{
+                    display: flex;
+                }
+                    .viñetas-contacto{
+                        list-style-type: none;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        align-items: flex-start;
+                    }
+            
+                        .png{
+                            height: 23px;
+                            width: 23px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+
+                .habilidades{
+                    display: flex;
+                }
+                    .programas{
+                        width: 50%;
+                        margin: 10 10 0 10;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                                   
+                    }
+                         .fila{
+                            display: flex;
+                            justify-content: space-between;
+                             margin-bottom: 20px;
+                        }
+                            .estrellas{
+                                display: flex;
+                                align-items: center;
+                                font-size: 20px;
+                            }
+                                .estrella-completa{
+                                    color:white;
+                                }
+                                .estrella-vacia{
+                                    color:black;
+                                }
+
+                .educacion{
+                    width: 100%;
+                    display: flex;
+                }
+                    .tiempo-educacion{
+                        width: 30%;                   
+                    }
+                
+                    .lugar-educacion{
+                        width: 70%;
+                        border-left: 0.5px solid white;
+                        padding-left: 7px;
+                    }
+
+                
+         #columna2{
+            height: 100%;
+            width: 65%;
+            background-color: #ECECEC;
+        }
+            .h3-columna2{
+                margin-left: 40px;
+                color: black;
+                text-shadow: 2px 2px lightgray;
+                
+            }
+
+            .hr-columna2{
+                width: 15%;
+                color:black;
+                margin-left: 40px;
+                align-items: left;
+                height: 5px;
+                background-color: black;
+                border-radius: 100px;
+            }
+
+                .trabajo{
+                    display: flex;
+                    margin-bottom: 20;
+                    margin-top: 20;
+                }
+
+                    .puesto{
+                        display: flex;
+                        flex-direction: column;
+                        margin: 10px;
+                        width: 20%
+                    }
+
+                        .anios{
+                            height: 25%;
+                            font-weight: bold;
+                        }
+
+                            .fila-laboral{
+                                text-align: center;
+                            }
+
+                        .hr-anios{
+                            width: 40%;
+                        }
+
+                        .cargo{
+                            height: 75%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            font-weight: bold;
+                        }
+
+                    .tareas{
+                        margin: 10px;
+                        width: 80%;
+                        display: flex;
+                        align-items: center;
+                        border-left: 0.5px solid black;
+                        padding-left: 7px;
+                    }
+
+                .hr-trabajos{
+                    width: 65%;
+                    height: 3px;
+                    background-color: black;
+                    border-radius: 100px;    
+                }
+
+        .portfolio{
+            background-image: url("code2.jpg");
+            background-repeat: repeat;
+            background-position: top;
+            height: 40%;
+            margin-top: 0;
+        }
+            .h3-portfolio{
+                color: white;
+                margin: 0;
+                padding-top: 20px;
+                text-align: center;
+                font-size: 30px;
+                text-shadow: 2px 2px black;
+                
+            }
+            
+            .hr-portfolio{
+                width: 10%;
+                color:white;
+                height: 5px;
+                background-color: white;
+                text-align: center;
+                border-radius: 100px;
+            
+            }
+            
+            .proyectos{
+                display:flex;
+                justify-content: space-between;
+            }
+            
+                .iconos{
+                    height: 135px;
+                    width: 135px;
+                    border-radius: 150px;
+                    transition: width 0.70s, height 0.70s, transform 0.70s;
+                }
+
+                .iconos:hover{
+                    height: 135px;
+                    width: 135px;
+                    transform: rotate(360deg);
+                }
